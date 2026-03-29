@@ -1,11 +1,10 @@
 """
-Primero definí la función es_primo, que recibe un número y verifica si es primo. Si el número es menor o igual a 1, devuelve False.
-Luego, con un bucle while, revisa si existe algún divisor desde 2 hasta la raíz cuadrada del número; si encuentra uno, devuelve False, y si no, devuelve True.
-Después definí la función obtener_primos, que recibe una lista de números y recorre cada número.
- Si el número es primo (usando la función anterior), lo agrega a una nueva lista de primos.
-Finalmente, pido al usuario que ingrese números separados por comas y los convierto a enteros. 
-Llamo a obtener_primos con esa lista y muestro tanto la lista original como los números primos. 
-También agregué un try-except para manejar errores si el usuario ingresa algo que no sean números enteros.
+El programa calcula la mayor suma entre dos números consecutivos dentro de una lista.
+Primero, se define la función max_consecutive_sum, la cual recibe una lista de enteros y verifica que tenga al menos dos elementos.
+Luego, recorre la lista utilizando un ciclo while, calcula la suma de cada par consecutivo y guarda la mayor suma encontrada.
+El programa solicita al usuario una serie de números separados por espacios. 
+Estos valores se convierten a enteros y se almacenan en una lista mediante un bloque try-except, que permite manejar errores si la entrada no es válida.
+Finalmente, la lista obtenida se pasa a la función, y se muestra el resultado correspondiente a la mayor suma consecutiva.
 """
 
 def max_consecutive_sum(number_list: list[int]) -> int:
