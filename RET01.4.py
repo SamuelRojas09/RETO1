@@ -8,7 +8,7 @@ Llamo a obtener_primos con esa lista y muestro tanto la lista original como los 
 También agregué un try-except para manejar errores si el usuario ingresa algo que no sean números enteros.
 """
 
-def max_consecutive_sum(number_list: list[int]):
+def max_consecutive_sum(number_list: list[int]) -> int:
     if len(number_list) < 2:
         return 0
 
