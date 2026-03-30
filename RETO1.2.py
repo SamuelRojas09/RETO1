@@ -1,8 +1,11 @@
 """
-Definí la función es_palindromo, que recibe una palabra y la convierte a minúsculas para que la comparación no dependa de mayúsculas o minúsculas. 
-Luego utilizo dos índices, uno al inicio y otro al final de la palabra, y voy comparando letra por letra mientras los índices avanzan hacia el centro.
+Definí la función es_palindromo, que recibe una palabra y la convierte a minúsculas 
+para que la comparación no dependa de mayúsculas o minúsculas. 
+Luego utilizo dos índices, uno al inicio y otro al final de la palabra, 
+y voy comparando letra por letra mientras los índices avanzan hacia el centro.
 Si encuentro alguna diferencia, la función marca que la palabra no es un palíndromo y termina la verificación. 
-Después, pido la palabra al usuario con input(), llamo a la función y muestro un mensaje indicando si la palabra ingresada es o no un palíndromo.
+Después, pido la palabra al usuario con input(), llamo a la función 
+y muestro un mensaje indicando si la palabra ingresada es o no un palíndromo.
 """
 
 def is_palindrome(word: str) -> bool:
