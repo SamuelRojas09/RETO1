@@ -10,7 +10,7 @@ Llamo a obtener_primos con esa lista y muestro tanto la lista original como los 
 También agregué un try-except para manejar errores si el usuario ingresa algo que no sean números enteros.
 """
 
-def is_prime(number: int):
+def is_prime(number: int) -> bool:
     
     if number <= 1:
         return False
@@ -25,7 +25,7 @@ def is_prime(number: int):
     return True
 
 
-def get_primes(number_list: list[int]):
+def get_primes(number_list: list[int]) -> list[int]:
 
     prime_list: list[int] = []
 
