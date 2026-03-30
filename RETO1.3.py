@@ -1,7 +1,8 @@
 """
 Primero definí la función es_primo, que recibe un número y verifica si es primo. 
 Si el número es menor o igual a 1, devuelve False. 
-Luego, con un bucle while, revisa si existe algún divisor desde 2 hasta la raíz cuadrada del número; si encuentra uno, devuelve False, y si no, devuelve True.
+Luego, con un bucle while, revisa si existe algún divisor desde 2 hasta la raíz cuadrada del número; 
+si encuentra uno, devuelve False, y si no, devuelve True.
 Después definí la función obtener_primos, que recibe una lista de números y recorre cada número. 
 Si el número es primo (usando la función anterior), lo agrega a una nueva lista de primos.
 Finalmente, pido al usuario que ingrese números separados por comas y los convierto a enteros. 
