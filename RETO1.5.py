@@ -10,7 +10,7 @@ Al final, guardo solo los grupos que tienen más de una palabra, porque esos son
 Finalmente, muestro cada grupo en pantalla, indicando cuáles palabras tienen exactamente los mismos caracteres entre sí.
 """
 
-def words_with_same_characters(word_list: list[str]):
+def words_with_same_characters(word_list: list[str]) -> list[list[str]]:
     result: list[list[str]] = []
     used: list[bool] = [False] * len(word_list)
     index: int = 0
