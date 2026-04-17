@@ -1,16 +1,3 @@
-"""
-El programa calcula la mayor suma entre dos números consecutivos dentro de una lista.
-Primero, se define la función max_consecutive_sum, la cual recibe una lista de enteros
-y verifica que tenga al menos dos elementos.
-Luego, recorre la lista utilizando un ciclo while, calcula la suma de cada par consecutivo 
-y guarda la mayor suma encontrada.
-El programa solicita al usuario una serie de números separados por espacios. 
-Estos valores se convierten a enteros y se almacenan en una lista mediante un bloque try-except,
-que permite manejar errores si la entrada no es válida.
-Finalmente, la lista obtenida se pasa a la función, 
-y se muestra el resultado correspondiente a la mayor suma consecutiva.
-"""
-
 def max_consecutive_sum(number_list: list[int]) -> int:
     if len(number_list) < 2:
         return 0
