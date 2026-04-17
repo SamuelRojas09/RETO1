@@ -1,15 +1,3 @@
-"""
-El programa recorre todas las palabras que el usuario ingresó y busca cuáles tienen los mismos caracteres.
-Primero pido las palabras con input() y uso split() para separar la cadena en palabras individuales.
-Luego tomo cada palabra como base y comparo sus letras con las de todas las demás palabras que todavía no hayan sido agrupadas.
-Para comparar, uso sorted() que ordena las letras de cada palabra 
-y así puedo verificar si tienen exactamente los mismos caracteres, letra por letra.
-Para no repetir palabras en varios grupos, uso una lista que marca cuáles palabras ya fueron incluidas en algún grupo. 
-Si todas las letras coinciden con la palabra base, agrego esa palabra al grupo y la marco como usada.
-Al final, guardo solo los grupos que tienen más de una palabra, porque esos son los que realmente comparten los mismos caracteres. 
-Finalmente, muestro cada grupo en pantalla, indicando cuáles palabras tienen exactamente los mismos caracteres entre sí.
-"""
-
 def words_with_same_characters(word_list: list[str]) -> list[list[str]]:
     result: list[list[str]] = []
     used: list[bool] = [False] * len(word_list)
